@@ -1,0 +1,26 @@
+AURORA CAFÉ — SITE MULTIPÁGINA
+
+Como abrir:
+- O site agora utiliza PHP para registrar pedidos e proteger o painel financeiro. Execute em um servidor com PHP (por exemplo, XAMPP, WampServer ou `php -S localhost:8000` dentro da pasta do projeto).
+- Depois, acesse http://localhost:8000/index.html. Abrir apenas o HTML com duplo clique não habilita o carrinho completo nem o painel PHP.
+- As imagens externas precisam de conexão com a internet.
+
+Novas funções:
+- Carrinho com quantidades, remoção de itens e total calculado.
+- Registro de pedidos pelo carrinho, com seleção da forma de pagamento (Pix, cartão ou dinheiro na entrega/retirada).
+- Alteração do nome de usuário e senha pelo painel da equipe (mínimo de 8 caracteres para a nova senha).
+- Área da equipe com login, resumo de faturamento, custos dos produtos, despesas e lucro/prejuízo estimado.
+- Registro manual de despesas no painel financeiro.
+
+Acessos de demonstração do painel:
+- Chefe: usuário `chefe` / senha `AuroraChefe2026!`
+- Funcionário: usuário `funcionario` / senha `AuroraEquipe2026!`
+Troque as senhas antes de publicar o site na internet. Os acessos são exemplos acadêmicos configurados em equipe.php.
+
+Observações financeiras:
+- Os preços de venda são os do cardápio.
+- Os custos unitários dos produtos são estimativas de demonstração configuradas em finalizar_pedido.php.
+- O faturamento é calculado pelos pedidos registrados, mesmo que não exista integração com pagamento; não representa necessariamente dinheiro recebido. As formas de pagamento são apenas registradas como preferência, sem cobrança online.
+- Os pedidos e despesas ficam salvos em arquivos JSON na pasta `dados`. O acesso HTTP a essa pasta é bloqueado pelo `.htaccess` quando o servidor Apache está configurado para respeitá-lo.
+
+Arquivos principais: index.html, cardapio.html, sobre.html, contato.html, carrinho.php, finalizar_pedido.php, equipe.php, style.css, script.js e processa.php.
