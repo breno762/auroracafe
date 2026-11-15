@@ -1,0 +1,56 @@
+[
+    {
+        "id": "AC-6adbb1bf2baa15.58567519",
+        "data": "2026-10-23T21:13:03+02:00",
+        "cliente": "breno",
+        "email": "azazelbosta@gmail.com",
+        "itens": [
+            {
+                "nome": "Latte da Aurora",
+                "quantidade": 1,
+                "preco": 12,
+                "custo_unitario": 4.5
+            },
+            {
+                "nome": "Chá de jardim",
+                "quantidade": 1,
+                "preco": 8,
+                "custo_unitario": 2.5
+            }
+        ],
+        "faturamento": 20,
+        "custo_produtos": 7,
+        "forma_pagamento": "Pix na entrega/retirada",
+        "status": "Registrado — aguardando pagamento"
+    },
+    {
+        "id": "AC-6ae148b7c25d93.40292703",
+        "data": "2026-10-28T01:58:31+01:00",
+        "cliente": "breno",
+        "email": "disneyhome04@cinepremiu.com",
+        "itens": [
+            {
+                "nome": "Latte da Aurora",
+                "quantidade": 1,
+                "preco": 12,
+                "custo_unitario": 4.5
+            },
+            {
+                "nome": "Cold brew cítrico",
+                "quantidade": 1,
+                "preco": 15,
+                "custo_unitario": 5.5
+            },
+            {
+                "nome": "Chá de jardim",
+                "quantidade": 1,
+                "preco": 8,
+                "custo_unitario": 2.5
+            }
+        ],
+        "faturamento": 35,
+        "custo_produtos": 12.5,
+        "forma_pagamento": "Pix na entrega/retirada",
+        "status": "Registrado — aguardando pagamento"
+    }
+]
